@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: hsla(13, 49%, 85%, 0.656);
+    background-color: whitesmoke);
 }
 
 h1 {
@@ -26,7 +26,6 @@ h2 {
     padding: 30px;
     flex-direction: column;
     border-radius: 20px;
-    width: 100%;
     padding: 10px;
 }
 
