@@ -3,35 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: hsla(13, 49%, 85%, 0.656);
 }
+
 h1 {
     color: hsl(24, 5%, 18%);
     font-family: 'Young Serif', serif;
     font-weight: 400;
 }
+
 h2 {
     color: hsl(14, 45%, 36%);
 }
+
 .container {
     background-color: white;
-    width: 650px;
     margin: 30px auto;
+    width: 650px;
     display: flex;
     padding: 30px;
     flex-direction: column;
     border-radius: 20px;
+    width: 100%;
+    padding: 10px;
 }
-p, li {
+
+p,
+li {
     font-size: 16px;
     color: hsl(30, 10%, 34%);
     font-family: "Outfit", sans-serif;
 }
+
 img {
     width: 590px;
     border-radius: 10px;
 }
+
 .heading {
     display: flex;
     flex-direction: column;
@@ -39,59 +49,74 @@ img {
     padding-bottom: 20px;
     line-height: 25px;
 }
+
 .prep {
     line-height: 30px;
     background-color: hsl(330, 100%, 98%);
     border-radius: 15px;
 }
+
 .prep div {
     padding: 0px 10px 10px 40px;
 }
+
 .prep h3 {
     padding-left: 35px;
     color: hsl(332, 51%, 32%);
 }
+
 .prep ul {
     padding-left: 10px;
 }
+
 .ingredient {
     line-height: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .ingredient h2 {
     padding-bottom: 10px;
 }
+
 .ing_list {
     padding-left: 20px;
 }
+
 .ing_list li {
     padding-left: 15px;
 }
+
 .instruction {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .instruction h2 {
     padding-bottom: 10px;
 }
+
 .ins_list {
     padding-left: 20px;
 }
+
 .ins_list li {
     padding-top: 10px;
     padding-left: 15px;
     line-height: 24px;
 }
+
 .nutrition h2 {
     padding-bottom: 10px;
     padding-top: 20px;
 }
+
 .nutrition div {
     line-height: 30px;
     padding-bottom: 15px;
-    
+
 }
+
 .tb {
     padding-top: 10px;
     display: grid;
@@ -99,7 +124,14 @@ img {
     grid-template-rows: 35px 35px 35px 35px;
     align-content: center;
 }
+
 .pa {
     color: hsl(14, 45%, 36%);
     font-weight: bold;
+}
+@media (max-width: 430px) {
+  .container {
+    padding: 8px;
+    font-size: 14px;
+  }
 }
